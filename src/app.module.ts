@@ -4,10 +4,12 @@ import { AppService } from './app.service';
 import { MediaModule } from './media/media.module';
 import { ConfigModule } from '@nestjs/config';
 @Module({
-  imports: [MediaModule,ConfigModule.forRoot({
-    isGlobal:true
-  })],
+  imports: [
+    MediaModule,
+    ConfigModule.forRoot({
+      isGlobal: true
+    })],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
