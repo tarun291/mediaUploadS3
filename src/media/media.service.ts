@@ -43,6 +43,3 @@ export class MediaService {
     }
   }
 }
-
-// xaud66FwSLuvEDdxrDmrNE0nk9YYjcR4M6Vi2WYc
-// AKIAWJNVL2XNSEG75OVE
